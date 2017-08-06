@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cl.empresapjm.proofone.HolidayPhotosActivity"
+    android:orientation="vertical">
+
+
+<!--
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Vacca" />
+
+    </LinearLayout>
+-->
+
+
+
+
+
+    <ImageView
+        android:id="@+id/firstimage"
+        android:layout_width="154dp"
+        android:layout_height="122dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/vacaciones1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <SeekBar
+        android:layout_width="@dimen/dime_seek"
+        android:layout_height="wrap_content"
+        android:id="@+id/userSb"
+        android:max="10"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userTv"
+        android:text="0"
+        android:padding="16dp"
+        android:layout_gravity="right"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/userSb"/>
+
+
+
+    <ImageView
+        android:id="@+id/secondimage"
+        android:layout_width="154dp"
+        android:layout_height="122dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/vacaciones2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="29dp"
+        android:layout_below="@+id/firstimage"/>
+
+    <SeekBar
+        android:layout_width="@dimen/dime_seek"
+        android:layout_height="wrap_content"
+        android:id="@+id/userSbtwo"
+        android:max="10"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/firstimage"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userTvtwo"
+        android:text="0"
+        android:padding="16dp"
+        android:layout_gravity="right"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/firstimage"/>
+
+    <ImageView
+        android:id="@+id/thirdimage"
+        android:layout_width="154dp"
+        android:layout_height="122dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/vacaciones3"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="29dp"
+        android:layout_below="@+id/secondimage"/>
+
+    <SeekBar
+        android:layout_width="@dimen/dime_seek"
+        android:layout_height="wrap_content"
+        android:id="@+id/userSbthird"
+        android:max="10"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/secondimage"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userTvthird"
+        android:text="0"
+        android:padding="16dp"
+        android:layout_gravity="right"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/secondimage"/>
+
+    <ImageView
+        android:id="@+id/fourthdimage"
+        android:layout_width="154dp"
+        android:layout_height="122dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/vacaciones4"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="29dp"
+        android:layout_below="@+id/thirdimage"/>
+
+    <SeekBar
+        android:layout_width="@dimen/dime_seek"
+        android:layout_height="wrap_content"
+        android:id="@+id/userSbfouth"
+        android:max="10"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/thirdimage"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userTvfourth"
+        android:text="0"
+        android:padding="16dp"
+        android:layout_gravity="right"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/thirdimage"/>
+
+</RelativeLayout>
